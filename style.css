@@ -649,7 +649,7 @@ background-image: url('img/image.png');
 .foot {
     padding: 2rem;
     background-color: rgba(0,178,169, 0.2);
-    color: rgba(200,16,46,0.3);
+    color: rgba(200,16,46,0.7);
     font-weight: bolder;
     font-size: 1.5rem;
     margin-top: 2rem;
@@ -671,7 +671,7 @@ background-image: url('img/image.png');
 }
 
 .svg-inline--fa.fa-w-14 {
-    color: #fff;
+    color: rgba(200,16,46,0.4);;
     margin-top: 1.2rem;
     font-size: 1.3rem;
     margin-right: .6rem;
@@ -712,10 +712,10 @@ footer .btn-outline-light {
 }    
 
 
-
 .btn-outline-light.disabled, .btn-outline-light:disabled {
     color: white;
     background-color: #C8102E;
+
 }
 
 
