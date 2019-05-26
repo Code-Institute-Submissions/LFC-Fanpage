@@ -1,0 +1,726 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+
+body {
+    overflow-x: hidden;
+    font-family: "lato", sans-serif;
+    color: #505962;
+}
+
+/*--- Nav Scrolling Offset --*/
+
+.offset:before {
+    height: 4rem;
+    margin-top: -4rem;
+    content: "";
+    display: block;
+}
+
+/*-- End --*/
+
+
+
+
+
+
+
+
+/*-- Navigation --*/
+
+.navbar {
+    padding: 1rem;
+    text-transform: capitalize;
+    font-size: .9rem;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    transition: background-color .5s ease 0s;
+    height: 72px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 12px;
+}
+
+.svg-inline--fa.fa-w-14 {
+    color: white;
+    font-size: 1.6rem;
+}
+
+.navbar-nav {
+    background-color: rgba(200,16,46, 1);
+    border-radius: 10px;
+    margin: 0 auto;
+    
+}
+
+.navbar-nav li {
+    padding-right: 1.4rem;
+    /*padding-left: 1.4rem;*/
+    margin-left: 4px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    padding: .2rem;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: #F6EB61;
+}
+
+
+.navbar.solid {
+    background-color: rgba(200,16,46, 1)!important;
+    transition: background-color 1s ease 0s;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+/*-- End --*/
+
+
+
+
+
+
+
+
+
+
+/*-- Landing Page --*/
+
+
+.home-inner {
+background-image: url('img/image.png');
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 28%;
+    z-index: 5;
+}
+
+.caption h1 {
+    color: #C8102E;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .3rem;
+    text-shadow: .1rem .1rem .1rem #F6EB61;
+    padding-bottom: 1rem;
+}
+
+.caption h3 {
+    color: #C8102E;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-shadow: .1rem .1rem .1rem #F6EB61;
+    padding-bottom: 1rem;
+}
+
+.btn-lg {
+    border-color: #F6EB61;
+    border-width: medium;
+    z-index: 2;
+    padding: .8rem 1.5rem;
+    font-size: 1.1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block!important;
+    color: #F6EB61;
+    border-radius: 5px;
+}    
+
+.caption .btn-lg:hover {
+    background-color: #C8102E;
+    border-color: rgba(0, 0, 0, 0);
+    color: #F6EB61;
+    border-radius: 5px;
+}
+
+/*-- End --*/
+
+
+
+
+
+
+
+
+/*-- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+    padding: 1rem;
+}
+
+/*-- End --*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-- Sign-up Page --*/
+
+.updated .btn-lg {
+    margin-bottom: 2rem;
+    margin-top: 3.5rem;
+}
+
+.updated .btn-lg:hover, 
+.updated .btn-lg:active {
+    background-color: #C8102E;
+    border-color: #C8102E;
+    color: #F6EB61;
+    border-radius: 5px;
+} 
+
+.narrow {
+    margin-top: 4rem;
+}
+
+.heading-underline {
+    margin-top: 2rem;
+}
+
+.caption .liverpool-logo {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 15px;
+}
+
+#playerprofile {
+    margin-top: 2rem;
+}
+
+.player-star {
+    margin: -3rem auto -2.1rem auto;
+}
+
+.player-card .fa-star {
+    letter-spacing: 2rem;
+}
+
+#playerprofile .liverpool-logo {
+    padding: 1rem;
+    margin: 1rem auto 1rem auto;
+}
+
+#playerprofile .btn {
+    color: #505962;
+    border-radius: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+
+#playerprofile .btn:hover {
+    color: #C8102E;
+    background-color: #F6EB61;
+    border-color: #F6EB61;
+    border-radius: 5px;
+}
+
+.liverpool-logo {
+    margin: 1rem auto;
+}
+
+.fixed {
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.updated {
+    height: 50vh;
+}
+
+
+
+/*-- End --*/
+
+
+
+
+
+
+
+
+/*-- PLayer Profile Page --*/
+.start-11 {
+    margin-top: 7rem;
+}
+
+.narrow {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: .8rem;
+}
+
+.row .stars {
+    margin: 0 auto;
+    font-size: 4rem;
+    color: #F6EB61;
+    text-transform: capitalize;
+    font-family: "lato", sans-serif;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+
+.fa-star {
+    color: #F6EB61;
+    height: 8rem;
+    width: 8rem;
+    margin-left: 2rem;
+}
+
+.jumbotron {
+    margin: 0 auto;
+    border-radius: 0;
+    padding: 1rem 0 3rem;
+    background-color: white;
+}
+
+
+
+.jumbotron .heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.9rem;
+    color: #C8102E;
+    }
+
+.heading-underline {
+    width: 3rem;
+    height: .2rem;
+    background-color: #00B2A9;
+    margin: 0 auto 2rem;
+}
+
+.player-profile {
+    padding: 16px;
+    margin-top: .5rem;
+}
+
+
+.player-proflie .player-img {
+  margin: 0 auto;  
+}
+
+.player-card {
+    text-align: center;
+    border-bottom: .5rem solid #F6EB61;
+    color: black;
+    border-radius: 6;
+    }
+
+.player-card:hover {
+    color: #C8102E;
+    background-color: rgba(246,235,97, 0.8);
+    border-radius: 8%;
+    transform: scale(1.1);
+    transition: all 1s ease-in-out;
+}
+    
+.player-card .player-img {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.player-card h3 {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.alison {
+    margin: 0 auto;
+}
+
+.player-position {
+    margin: 0 auto;
+}
+
+.media .row {
+    height: 350px;
+}
+
+/*-- End --*/
+
+
+
+
+
+
+/*-- History --*/
+
+.heading {
+    text-align: center;
+    font-family: "lato", sans-serif;
+    color: #C8102E;
+}
+
+.history .heading {
+    color: #F6EB61;
+    margin: 1px auto;
+    padding: 5px;
+    /*background-color: rgba(0, 0, 0, 1);*/
+     background-color: #C8102E;
+    }
+    
+@media (min-width: 350px) {
+    .stars {
+    margin: 0 auto;
+    font-size: 2.0rem;
+    color: #F6EB61;
+    text-align: center;
+}
+}
+
+.carousel {
+    margin: 0 auto;
+}
+
+
+.carousel-inner {
+      /*background-color: rgba(0, 0, 0, 0.7);*/
+      color: rgba(250, 250, 250, 0.9);
+      width: 100%;
+}
+
+.carousel-inner img {
+    margin: 0 auto;
+    border-bottom: 5px solid rgba(246,235,97,1);
+    border-top: 5px solid rgba(246,235,97,1);
+    border-radius: 5px;
+    box-shadow: 1px 2px 6px 5px black;
+    max-height: 70vh;
+    max-width: 65%;
+}
+
+.carousel-item h1 {
+    max-height: 60%;
+    max-width: 63%;
+    margin: 0 auto;
+}
+
+.carousel-item p {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 1.4rem;
+    border-bottom: 5px solid rgba(246,235,97,1);
+    border-top: 5px solid rgba(246,235,97,1);
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 1px 2px 6px 5px black;
+    max-height: 60%;
+    max-width: 65%;
+    margin: 0 auto;
+}
+
+.carousel-container {
+    width: 95%;
+    max-height: 60%;
+    margin: 0 auto;
+}
+
+.history {
+    background-image: url("img/liverpool_anfield.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+    height: 1200px;
+    width: 100%;
+}
+
+ /*---- End ---*/
+ 
+ 
+ 
+ 
+ 
+
+ /*---- Images & Videos ---*/
+ 
+ #images-videos {
+     margin-top: -1rem;
+     /*background-color: #edf5e1!important;*/
+ }
+
+ .media-page .heading {
+    margin: 0 auto;
+}
+
+.media-page .media-star {
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.media-star .fa-star {
+    text-align: center;
+    margin: 0rem 1.2rem 0rem 1.2rem;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.media-star .media-heading-1 {
+    text-decoration: underline;
+    margin-bottom: -30px;
+    margin-top: 20px;
+}
+
+.media-heading {
+    margin-top: -3rem;
+}
+
+.klopp-media:hover,
+.klopp-media:active {
+    border-color: rgba(0,178,169,0.5);
+    /*background-color: rgba(0,178,169,0.1);*/
+    transition: all 1s ease-in-out;
+}
+
+@media (min-width: 350px) {
+.klopp-media {
+    margin: 1rem auto;
+    background-color: rgba(0,178,169,0.2);
+    border-bottom: 0.8rem solid #C8102E;
+    border-top: .2rem solid #C8102E;
+    color: #C8102E;
+    font-weight: bolder;
+}
+}
+
+@media (min-width: 766px) {
+.klopp-media {
+    display: inline-block;
+    background-color: rgba(0,178,169,0.2);
+    border-bottom: 0.8rem solid #C8102E;
+    border-top: .2rem solid #C8102E;
+    color: #C8102E;
+    font-weight: bolder;
+    height: 40%;
+    max-width: 32%;
+    margin-left: 6px;
+}
+}
+
+@media (min-width: 350px) {
+.media-page {
+     width: 100vw;
+     margin: 0 auto;
+     background-color: #edf5e1;
+}
+}
+
+@media (min-width: 766px) {
+.media-page {
+     margin: 0 auto -2rem auto;
+     background-color: #edf5e1;
+}
+}
+
+.klopp-media .media-column {
+    margin: 0 auto;
+}
+
+.highlight-media:hover,
+.highlight-media:active {
+    border-color: rgba(0,178,169,0.7);
+    background-color: rgba(0,178,169,0.3);
+    transition: all 1s ease-in-out;
+}
+
+@media (min-width: 350px) {
+.highlight-media {
+    margin: 1rem auto;
+    background-color: rgba(0,178,169,0.2);
+    border-bottom: 0.8rem solid #C8102E;
+    border-top: .2rem solid #C8102E;
+    color: #C8102E;
+    font-weight: bolder;
+}
+}
+
+@media (min-width: 766px) {
+.highlight-media {
+    display: inline-block;
+    background-color: rgba(0,178,169,0.2);
+    border-bottom: 0.8rem solid #C8102E;
+    border-top: .2rem solid #C8102E;
+    color: #C8102E;
+    font-weight: bolder;
+    height: 40%;
+    max-width: 32%;
+    margin-left: 6px;
+}
+}
+ /*---- End ---*/
+    
+
+ /*---- Quotes ---*/  
+
+.quote-container .heading {
+    margin-top: -3rem;
+}
+  
+.quotes img {
+    box-sizing: padding-box;
+    padding: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+    transition: transform ease;
+} 
+
+@media (min-width: 766px) {
+.quotes img { 
+    max-width: 40%; 
+    margin: 0 auto;
+}
+}
+
+.quotes img:hover {
+    transform: scale(0.98);
+}
+
+.quotes .blockquote {
+    width: 100%!important;
+    height: 200px;
+}
+  
+.quote-container {
+    padding: 1.2rem;
+    border-bottom: 3px solid #fff;
+    margin-top: -1rem;
+    /*background-color: #ed55e1;*/
+    margin-bottom: 3rem;
+}
+
+.quotes {
+    width: 100%;
+}
+
+.owl-carousel {
+    display: inline-block;
+    width: 100%;
+    -webkit-tap-highlight-color: transparent;
+    position: relative;
+    z-index: 1;
+}
+
+.fa-quote-left {
+    margin: 1rem;
+    color: #C8102E;
+}
+
+.quote-container .fa-star {
+    padding: 2px;
+    margin-left: auto;
+}
+
+.quote-line {
+    border-top: .85 solid #C8102E;
+}
+
+/*---- End ---*/    
+    
+ /*---- Sign Up Page ---*/
+
+
+@media (min-width: 350px) {
+.foot {
+    padding: 2rem;
+    background-color: rgba(0,178,169, 0.2);
+    color: rgba(200,16,46,0.3);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    text-align: center;
+    border-top: .2rem solid #C8102E;
+}
+}
+
+.lfc-logo {
+    margin: 0 auto;
+    padding: 1rem;
+    height: 100px;
+    display: block;
+}
+
+.foot h3 {
+    text-decoration: underline;
+    text-align: center;
+}
+
+.svg-inline--fa.fa-w-14 {
+    color: #fff;
+    margin-top: 1.2rem;
+    font-size: 1.3rem;
+    margin-right: .6rem;
+}
+    
+.svg-inline--fa.fa-w-14:hover,
+.svg-inline--fa.fa-w-14:active {
+    color: #C8102E!important;
+    transition: all .2s ease-in-out;
+}
+
+.form-container {
+    margin: 0 auto;
+}
+
+.form-container h3 {
+    margin-bottom: 2rem;
+}
+
+.form-group {
+    border: 2px solid #C8102E;
+    border-radius: 5px;
+    min-width: 100%;
+}
+
+#contact-form {
+    min-width: 90%;
+}
+
+.submit-button {
+    color: white;
+    background-color: #C8102E;
+}
+
+footer .btn-outline-light {
+    color: white;
+    background-color: #C8102E;
+}    
+
+
+
+.btn-outline-light.disabled, .btn-outline-light:disabled {
+    color: white;
+    background-color: #C8102E;
+}
+
+
+  /*---- End ---*/
+  
+
+
+
