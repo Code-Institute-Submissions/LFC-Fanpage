@@ -11,7 +11,7 @@ This website project was undertaken to improve and showcase my current front-end
 
 This website is fully responsive - the designs were purposely simplified to ensure that all the content for the mobile first design would fit onto the desktop view. for the navigation bar, I need to reference a Udemy Course as I used their Javascript code to ensure that the page scrolled to a specific page when clicked rather then an instant movement, and to ensure that the navbar became transparent once the user scrolled past a certain point. I also used Udemy to aid with the animations that I coded used on the player profiles page, the carousel for the history page and for the form at the sign- up page. I had to use Udemy for help as I have not yet learned how to code with JavaScript but I really wanted to implement the animations.
 
-## Wireframes
+## Desktop Wireframes
 
 ![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-1.jpg)
 ![Desktop Wireframe 2](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-2.jpg)
@@ -20,7 +20,13 @@ This website is fully responsive - the designs were purposely simplified to ensu
 ![Desktop Wireframe 5](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-5.jpg)
 
 
+## Mobile Wireframes
 
+![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Mobile-Wireframe-1.jpg)
+![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Mobile-Wireframe-2.jpg)
+![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Mobile-Wireframe-3.jpg)
+![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Mobile-Wireframe-4.jpg)
+![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Mobile-Wireframe-5.jpg)
 
 
 ## Technologies Used 
