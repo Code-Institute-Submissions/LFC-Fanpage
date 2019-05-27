@@ -29,6 +29,31 @@ This website is fully responsive - the designs were purposely simplified to ensu
 ![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Mobile-Wireframe-5.jpg)
 
 
+## Features 
+
+#### Features Used
+
+##### Feature 1: Navbar
+This features was used to ensure that the user can navigate throughout the website with ease and speed. The mobile first design means that the burger icon will change to a fixed navbar at the top of the screen with all of the anchor tags visible.
+
+##### Feature 2: Home Page
+This feature was designed to be as simple as possible, allowing the user to use the Navbar to reach the parts of the website with the content. There is a fixed background to make it look more professional.
+
+##### Feature 3: Player Profiles
+This section had an image of each of the players, their names, position, nationality and their Premier League Records. the cards have been positioned into the actual fomration positions that they would play. I added animations for the cards once they have been selected to make it as clear and visually pleasing as possible.
+
+##### Feature 4: European History
+For this page I used a carousel as there were five different historical events that I wanted to display. The carousel allowed me to fit all this on one page for both the mobile size and desktop, whilst having fixed background of Anfield.
+
+##### Feature 5: Media
+This section features three videos of Jurgen Klopp during interviews and three videos showing the users all of the Premier League goals from the last three seasons.
+
+##### Feature 6: News and Transfers
+This section offers brief quotes from Jurgen Klopp, Gary Lineker and Roberto Firminho. This section has both images and paragraphs on a carousel to ensure thay all the information will work with a mobile-first design method.
+
+##### Feature 7: Sign Up Page
+This page is split vertically for desktop view to ensure all the information is very visible and easy to access. the left hand side contains all the conntact details and social media links while the left hand side, which drops to the bottom for mobile devices has a form, so that users can sign up for weekly updates.
+
 ## Technologies Used 
 * HTML5 
 * CSS3 
