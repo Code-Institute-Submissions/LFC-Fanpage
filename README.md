@@ -14,8 +14,12 @@ This website is fully responsive - the designs were purposely simplified to ensu
 ## Wireframes
 
 ![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-1.jpg)
+![Desktop Wireframe 2](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-2.jpg)
+![Desktop Wireframe 3](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-3.jpg)
+![Desktop Wireframe 4](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-4.jpg)
+![Desktop Wireframe 5](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-5.jpg)
 
-![alt text](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-1.jpg "Logo Title Text 1")
+
 
 
 
