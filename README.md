@@ -89,3 +89,7 @@ The fixed background images that I used for the landing page and the history pag
 * **Slack**
 
 For a few bits of help that I got from Code Institute's Slack channel 
+
+* **Youtube** 
+
+I watched a few videos for very specific problems that i came across during the process of coding the website.
