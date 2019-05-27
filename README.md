@@ -13,7 +13,9 @@ This website is fully responsive - the designs were purposely simplified to ensu
 
 ## Wireframes
 
-![Desktop Wireframe 1](udemy-bootstrap/Wireframes/Desktop-Wireframe-1.jpg)
+![Desktop Wireframe 1](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-1.jpg)
+
+![alt text](https://github.com/jjwain/LFC-Fanpage/blob/master/img/Wireframes/Desktop-Wireframe-1.jpg "Logo Title Text 1")
 
 
 
